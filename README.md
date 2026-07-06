@@ -51,6 +51,7 @@ The removable back plate makes assembly, wiring, and future maintenance much eas
 | 5 MX Key/Switches | Alarm controls |
 | Piezo Buzzer | Alarm output |
 | Jumper Wires | Hand wired connections |
+| 4 M3 x 8mm screws | For Attaching back plate to the case |
 
 ---
 
