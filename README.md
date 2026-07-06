@@ -111,6 +111,24 @@ Current firmware features include:
 <img width="100%" alt="Screenshot (100)" src="https://github.com/user-attachments/assets/41ed30f7-b4f0-40e3-a860-a1cb78f2af0b" />
 </td>
 </tr>
+
+<tr>
+<td width="50%">
+<img width="1920" height="812" alt="Digital Alarm Clock by Nemo4" src="https://github.com/user-attachments/assets/8cf8ff09-1706-48a0-a006-994db2621339" />
+</td>
+<td width="50%">
+<img width="1920" height="812" alt="Digital Alarm Clock by Nemo5" src="https://github.com/user-attachments/assets/8194add8-cf10-4dcc-ba36-2dcbc9ed5a76" />
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+<img width="1920" height="812" alt="Digital Alarm Clock by Nemo3" src="https://github.com/user-attachments/assets/bd260514-c78a-43fc-a41e-eb73c3469e3f" />
+</td>
+<td width="50%">
+<img width="1920" height="812" alt="Digital Alarm Clock by Nemo" src="https://github.com/user-attachments/assets/593648d6-539c-4395-9a22-56ef74e29eb5" />
+</td>
+</tr>
 </table>
 
 ---
