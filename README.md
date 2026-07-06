@@ -50,7 +50,7 @@ The removable back plate makes assembly, wiring, and future maintenance much eas
 | TFT Display | Clock display |
 | 5 MX Key/Switches | Alarm controls |
 | Piezo Buzzer | Alarm output |
-| Jumper Wires | Hand-wired connections |
+| Jumper Wires | Hand wired connections |
 
 ---
 
