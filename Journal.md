@@ -9,13 +9,13 @@ The case consists of two parts:
 - Removable back plate
 
 The back plate is designed to be attached using M3x8mm screws, so I can easily open it later for wiring, debugging, or making changes without destroying the whole case :]
-
 I followed the tutorial available on the BLARE website for a lot of the basic enclosure design, but I also made several changes to make it fit my own project better:
 - Added 4 mechanical keys.
 - Changed the position of the ESP32.
 - Changed the position of the buzzer.
 - Rearranged the internal layout.
 
+I also found a font called Digital 7 that looks like digital clock text and it fits so well with the emboss I added on the case :>
 One thing I am still confused about... why does the tutorial add a hole underneath the buzzer like on the bottom plate... ;-;
 My guess is that its there so the sound can escape the enclosure instead of getting trapped inside. Makes sense... I think :p but wouldn't that lead to the buzzer falling through the hole ;-; man I am so dumb
 
