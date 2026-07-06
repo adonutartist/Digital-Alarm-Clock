@@ -14,20 +14,17 @@
 ## About
 
 This is a custom designed digital alarm clock inspired by the Japanese art of Kintsugi the philosophy of embracing imperfections by repairing them with gold.
-
 Instead of hiding cracks, the front of the enclosure celebrates them, turning a simple bedside clock into a small desk piece.
-
 The project is being built for Hack Club BLARE using an ESP32 C3, a TFT display, mechanical switches, and a custom 3D printed enclosure.
 
 ## Features
 
-- Digital clock with automatic Wi-Fi time synchronization
-- Alarm with dedicated hardware buttons
-- Five-button interface
-- Custom 3D printed enclosure
-- Kintsugi inspired front panel
-- Piezo buzzer alarm
-- Alarm settings saved to onboard memory
+- Digital clock with automatic Wi-Fi time synchronization.
+- Alarm that can be set using 5 buttons.
+- Custom 3D printed enclosure.
+- Kintsugi inspired front panel for the enclosure.
+- Piezo buzzer beep alarm.
+- Alarm settings saved to memory.
 
 ---
 
@@ -50,8 +47,8 @@ The removable back plate makes assembly, wiring, and future maintenance much eas
 | Component | Purpose |
 |-----------|---------|
 | ESP32-C3 Mini | Main controller |
-| ST7789 TFT Display | Clock display |
-| 5 Mechanical Switches | Alarm controls |
+| TFT Display | Clock display |
+| 5 MX Key/Switches | Alarm controls |
 | Piezo Buzzer | Alarm output |
 | Jumper Wires | Hand-wired connections |
 
@@ -75,10 +72,10 @@ The firmware is written using the Arduino IDE and is designed around the followi
 
 Current firmware features include:
 
-- Automatic NTP time synchronization
-- Alarm storage in flash memory
-- Dedicated alarm controls
-- Wi-Fi reconnect support
+- Automatic NTP time synchronization.
+- Alarm storage in memory.
+- Alarm controls.
+- Wi-Fi reconnect support.
 
 ---
 
