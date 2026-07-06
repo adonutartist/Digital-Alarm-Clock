@@ -45,7 +45,7 @@ The removable back plate makes assembly, wiring, and future maintenance much eas
 
 ---
 
-## Hardware
+## BOM (Bill of Materials)
 
 | Component | Purpose |
 |-----------|---------|
