@@ -92,3 +92,23 @@ Another thing I did today was attend one of the BLARE workshops. I still had a f
 </table>
 
 Overall, today was less about making huge visible progress and more about getting everything ready to ship. The project feels a lot more planned out now, and I don't feel nearly as lost as I did yesterday xD. Next up is Waiting for the kit, and then finally seeing if everything actually works outside of my imagination ;-;
+
+---
+
+# Devlog #3
+
+**Date & Time:** 7 July 10:00 PM to 8 July 1 AM *(no breaks :p)*
+
+Today was mostly about improving the enclosure after getting feedback on my CAD model. Turns out designing something that looks nice and designing something that's actually 3D printable are two very different things xD
+I got a DM from the reviewer who reviewed my enclosure and pointed out a few things that would cause problems during printing. I'm really glad I got the feedback before sending it off because I definitely would've run into issues otherwise :<
+
+Here are the changes I made after the review:
+
+- Rotated the chamfers so they point towards the build plate instead of away from it, reducing unnecessary overhangs.
+- Changed the embossed text so it's more printer friendly.
+- Added the missing screw holes to the back plate apparently the version I shared was an older file without them ;-;
+- Went through the whole model once more to make sure everything should print a lot more reliably.
+
+One thing I also learned today is that the printer won't magically print multiple colours just because I designed them that way xD. The enclosure will be printed entirely in black, so if I still want the gold Kintsugi lines later I'll have to paint them myself or maybe use vinyl or stickers. Honestly, I think hand painting them could end up looking even cooler :]
+The mentor also shared a really useful guide about designing parts specifically for 3D printing. I didn't realize how much orientation, overhangs, and support material affect a print until now. Definitely learned something new today instead of just randomly adding chamfers because they looked nice xD
+Overall this wasn't the most exciting day in terms of adding new features so not much visual changes, but I feel like the enclosure is much closer to something that can actually be manufactured now instead of just looking good on my screen :D
