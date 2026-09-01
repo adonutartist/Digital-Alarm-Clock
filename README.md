@@ -2,7 +2,7 @@
 
 # Kintsugi Style Digital Clock & Alarm
 
-*A minimalist Kintsugi-inspired digital alarm clock built for Hack Club's **BLARE** YSWS.*
+*A minimalist Kintsugi-inspired digital alarm clock, built for Hack Club's **BLARE** YSWS.*
 
 <!-- Hero Image -->
 <img width="1920" height="812" alt="Digital Alarm Clock by Nemo" src="https://github.com/user-attachments/assets/b7802b09-2d5b-4347-b7f0-a6f7fb421afc" />
@@ -13,18 +13,18 @@
 
 ## About
 
-This is a custom designed digital alarm clock inspired by the Japanese art of Kintsugi the philosophy of embracing imperfections by repairing them with gold.
+This is a custom designed digital alarm clock inspired by the Japanese art of Kintsugi — the philosophy of embracing imperfections by repairing them with gold.
 Instead of hiding cracks, the front of the enclosure celebrates them, turning a simple bedside clock into a small desk piece.
-The project is being built for Hack Club BLARE using an ESP32 C3, a TFT display, mechanical switches, and a custom 3D printed enclosure.
+
+Built for Hack Club BLARE using an ESP32-C3, a custom-wired ST7789 TFT display, five mechanical switches, a piezo buzzer, and a custom 3D printed enclosure.
 
 ## Features
 
-- Digital clock with automatic Wi-Fi time synchronization.
-- Alarm that can be set using 5 buttons.
+- Digital clock with automatic Wi-Fi time synchronization (NTP).
+- Alarm set and adjusted using 5 buttons.
+- Loud siren-style buzzer alarm, with a quick confirmation click on every button press.
 - Custom 3D printed enclosure.
 - Kintsugi inspired front panel for the enclosure.
-- Piezo buzzer beep alarm.
-- Alarm settings saved to memory.
 
 ---
 
@@ -47,7 +47,7 @@ The removable back plate makes assembly, wiring, and future maintenance much eas
 | Component | Purpose |
 |-----------|---------|
 | ESP32-C3 Mini | Main controller |
-| TFT Display | Clock display |
+| TFT Display (ST7789) | Clock display |
 | 5 MX Key/Switches | Alarm controls |
 | Piezo Buzzer | Alarm output |
 | Jumper Wires | Hand wired connections |
@@ -63,20 +63,26 @@ The removable back plate makes assembly, wiring, and future maintenance much eas
 
 ## Firmware
 
-The firmware is written using the Arduino IDE and is designed around the following libraries:
+The firmware is written using the Arduino IDE and is built around the following libraries:
 
 - Adafruit GFX
 - Adafruit ST7789
 - WiFi
-- Preferences
 - SPI
+- time.h
 
-Current firmware features include:
+Current firmware features:
 
-- Automatic NTP time synchronization.
-- Alarm storage in memory.
-- Alarm controls.
-- Wi-Fi reconnect support.
+- Automatic NTP time sync over Wi-Fi on boot.
+- Alarm set/adjust via the 5 switches (hour, minute, AM/PM).
+- Loud siren-style buzzer alarm (continuous pitch sweep), silenced by pressing any button.
+- Short click feedback beep on every button press.
+- Kintsugi-styled black background with white/red accent text; colors swap between the clock and alarm-setting screens.
+
+Planned / not yet implemented:
+
+- Persistent alarm storage (currently resets to a default time on every power cycle — `Preferences`/flash storage support is planned).
+- Continuous Wi-Fi reconnect handling (currently syncs once at boot, then turns Wi-Fi off to save power).
 
 ---
 
@@ -130,3 +136,7 @@ Current firmware features include:
 </table>
 
 ---
+
+<div align="center">
+<img width="300" alt="nemo" src="https://github.com/user-attachments/assets/07afdbb5-4254-42f4-82ae-558077fdc3c6" />
+</div>
