@@ -5,7 +5,7 @@
 *A minimalist Kintsugi-inspired digital alarm clock, built for Hack Club's **BLARE** YSWS.*
 
 <!-- Hero Image -->
-<img width="1920" height="812" alt="Digital Alarm Clock by Nemo" src="https://github.com/user-attachments/assets/b7802b09-2d5b-4347-b7f0-a6f7fb421afc" />
+<img width="1414" height="2000" alt="White Creative Project Cover Page (1)" src="https://github.com/user-attachments/assets/5904e865-8260-4ab4-8045-4f4f4d0d8eb2" />
 
 </div>
 
