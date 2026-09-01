@@ -11,6 +11,10 @@
 
 ---
 
+DEMO VIDEO: https://youtu.be/bO5vRV_8sZE
+
+---
+
 ## About
 
 This is a custom designed digital alarm clock inspired by the Japanese art of Kintsugi — the philosophy of embracing imperfections by repairing them with gold.
@@ -25,6 +29,21 @@ Built for Hack Club BLARE using an ESP32-C3, a custom-wired ST7789 TFT display, 
 - Loud siren-style buzzer alarm, with a quick confirmation click on every button press.
 - Custom 3D printed enclosure.
 - Kintsugi inspired front panel for the enclosure.
+
+---
+
+## How To Use
+
+1. Edit the firmware and add ur wifi name and password.
+2. upload the firmware.
+3. wait for it connect and sync time it would show status on screen on the clock.
+4. once synced it works as a normal digital clock.
+5. to set an alarm just click the top key it would switch u from clock view to alarm clock settings menu.
+6. there u can use keys on the front face of the clock to change stuff.
+7. top left key for am/pm toggle, top right key to change hrs, bottom right key to change mins.
+8. click top key again to save and go to back to clock view.
+9. the front bottom left key is turn on/off alarm.
+10. alarm rings click any key to stop alarrm
 
 ---
 
