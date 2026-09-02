@@ -125,6 +125,10 @@ Yesterday my kit arrived was pretty excited to take a look and sadly there were 
 
 https://lapse.hackclub.com/timelapse/eQyfPEJTRa2B
 
+## Estimated time spent
+
+6 houishh
+
 ## Progress Pictures
 
 <img width="3264" height="1840" alt="IMG_20260901_162159" src="https://github.com/user-attachments/assets/4764849b-d89a-4846-a47e-a623f6af454e" />
